@@ -1,0 +1,24 @@
+{
+  "name": "type-coercion",
+  "version": "0.0.1",
+  "homepage": "https://github.com/robinboehm/angularjs-intensiv-workshop",
+  "authors": [
+    "Robin Böhm <robinboehm@googlemail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.1",
+    "angular-route": "~1.2.1",
+    "google-code-prettify": "~1.0.0",
+    "angular-bootstrap": "~0.6.0",
+    "bootstrap": "2.3.2"
+  }
+}

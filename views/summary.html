@@ -1,0 +1,11 @@
+<h2>
+    Summary
+</h2>
+<ul>
+    <li class="result" ng-class="{'red': (task | eval) != results[$index], 'green':(task | eval) == results[$index] }" ng-repeat="task in tasks">
+        <span ng-bind="task"></span>
+        Antwort: <span ng-bind="results[$index]"></span>
+        <span>Korrekt : {{ task | eval }}</span>
+    </li>
+</ul>
+

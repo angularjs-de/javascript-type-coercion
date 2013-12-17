@@ -1,0 +1,16 @@
+body{
+    margin: 0 auto;
+    width: 500px;
+}
+
+li.result{
+    width: 300px;
+}
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}

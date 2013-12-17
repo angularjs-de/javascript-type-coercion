@@ -1,0 +1,14 @@
+<section>
+
+    <button class="btn btn-success" value="true" ng-click="saveResult('true')">True</button>
+    <button class="btn btn-danger" value="false" ng-click="saveResult('false')">False</button>
+    <pre class="prettyprint linenums lang-js" ng-bind="task"></pre>
+
+</section>
+<footer>
+    Aufgabe
+    <span class="taskId" ng-bind="taskId"></span>
+    von
+    <span class="sumTasks" ng-bind="sumTasks"></span>
+    <progress percent="(taskId / sumTasks)*100" class="progress-success active"></progress>
+</footer>
