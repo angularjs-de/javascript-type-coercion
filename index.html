@@ -4,17 +4,17 @@
   <title>Type Coercion by AngularJS.DE</title>
 </head>
 
-<link href="bower_components/bootstrap/docs/assets/css/bootstrap.css" media="all" rel="stylesheet" type="text/css">
-<link href="bower_components/bootstrap/docs/assets/js/bootstrap.js" media="all" rel="stylesheet" type="text/css">
+<link href="bower_components/bootstrap/dist/css/bootstrap.css" media="all" rel="stylesheet" type="text/css">
 <link href="bower_components/google-code-prettify/styles/sunburst.css" media="all" rel="stylesheet" type="text/css">
 <link href="bower_components/github-fork-ribbon-css/gh-fork-ribbon.css" media="all" rel="stylesheet" type="text/css">
 <link href="css/tasks.css" media="all" rel="stylesheet" type="text/css">
 <body>
 
-<div class="container">
-  <h1 class="page-header">Tasks: Type Coercion</h1>
-  <main ng-view></main>
-
+<div class="container-fluid">
+  <main class="row">
+    <h1 class="page-header">Tasks: Type Coercion</h1>
+    <main ng-view class="col-xs-12"></main>
+  </main>
 </div>
 
 <div class="github-fork-ribbon-wrapper right">
@@ -38,13 +38,20 @@
 
 
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-46536456-1', 'robinboehm.github.io');
-    ga('send', 'pageview');
+  ga('create', 'UA-46536456-1', 'robinboehm.github.io');
+  ga('send', 'pageview');
 
 </script>
 
