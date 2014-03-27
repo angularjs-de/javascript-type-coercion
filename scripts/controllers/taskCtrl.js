@@ -5,6 +5,7 @@ angular.module("typeCoercion")
         $scope.taskId = parseInt($routeParams.taskId, 10);
         $scope.task = tasks[$scope.taskId - 1];
         $scope.sumTasks = tasks.length;
+        ga('send', 'pageview-task-'+$scope.taskId);
 
         $scope.saveResult = function (result) {
             var results = DataHolderService.getResults();

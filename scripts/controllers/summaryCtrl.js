@@ -3,8 +3,10 @@ angular.module("typeCoercion")
         'use strict';
         $scope.tasks = DataHolderService.getTasks();
         $scope.results = DataHolderService.getResults();
+        ga('send', 'pageview-result');
 
-        if (!$scope.results.length) {
+
+    if (!$scope.results.length) {
             $location.path("/");
         }
     });
