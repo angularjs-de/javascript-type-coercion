@@ -1,16 +1,11 @@
-body{
-    margin: 0 auto;
-    width: 500px;
-}
-
 li.result{
     width: 300px;
 }
 
 .green{
-    background-color: green;
+    background-color: #dff0d8;
 }
 
 .red{
-    background-color: red;
+    background-color: #f2dede;
 }
