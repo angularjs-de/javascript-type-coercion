@@ -5,7 +5,10 @@
   <span class="sumTasks" ng-bind="sumTasks"></span>
 </p>
 
-<progress percent="(taskId / sumTasks)*100" class="progress-success active"></progress>
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: {{(taskId / sumTasks)*100}}%;">
+  </div>
+</div>
 
 <hr>
 
