@@ -9,3 +9,10 @@ li.result{
 .red{
     background-color: #f2dede;
 }
+
+.no-transition {
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: color 0 ease-in;
+    transition: none;
+}
