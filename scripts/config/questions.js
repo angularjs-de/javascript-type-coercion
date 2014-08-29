@@ -1,5 +1,7 @@
-angular.module("typeCoercion")
-  .constant("questions", [
+'use strict';
+
+angular.module('typeCoercion')
+  .constant('questions', [
     '1 == 1',     // returns true
     '"1" == 1',   // returns true ("1" converts to 1)
     '1 == true',  // returns true

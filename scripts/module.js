@@ -1,1 +1,1 @@
-angular.module("typeCoercion", ['ngRoute', 'ui.bootstrap']);
+angular.module('typeCoercion', ['ngRoute', 'ui.bootstrap']);

@@ -1,4 +1,4 @@
-angular.module("typeCoercion")
+angular.module('typeCoercion')
   .filter('eval', function () {
     return function (input) {
       if (/^if/.test(input)) {
