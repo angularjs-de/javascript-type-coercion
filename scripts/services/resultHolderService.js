@@ -9,9 +9,7 @@ angular.module('typeCoercion')
     var questions = shuffle(questions);
 
     function getCorrectAnswersCount() {
-      console.log(results);
       return questions.filter(function(question, index){
-        console.log(index, $filter('eval')(question), results[index])
         return $filter('eval')(question) === results[index];
       }).length
     }
