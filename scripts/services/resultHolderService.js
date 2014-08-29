@@ -1,5 +1,5 @@
-angular.module("typeCoercion")
-  .factory("DataHolderService", function(questions) {
+angular.module('typeCoercion')
+  .factory('resultHolderService', function(questions) {
     'use strict';
     function shuffle(o) { //v1.0
       for (var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
@@ -9,7 +9,7 @@ angular.module("typeCoercion")
     var tasks = shuffle(questions);
 
     return {
-      getTasks: function () {
+      getQuestions: function () {
         return tasks;
       },
       getResults: function () {

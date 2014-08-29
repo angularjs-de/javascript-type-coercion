@@ -7,13 +7,13 @@ angular.module('typeCoercion')
       .when('/', {
         templateUrl: 'views/start.html'
       })
-      .when('/summary', {
-        templateUrl: 'views/summary.html',
+      .when('/result', {
+        templateUrl: 'views/result.html',
         controller: 'summaryCtrl'
       })
-      .when('/:taskId', {
-        templateUrl: 'views/task.html',
-        controller: 'taskCtrl'
+      .when('/:questionId', {
+        templateUrl: 'views/question.html',
+        controller: 'questionCtrl'
       })
       .otherwise({
         redirectTo: '/'

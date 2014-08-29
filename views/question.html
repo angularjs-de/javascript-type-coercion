@@ -1,0 +1,18 @@
+<p>
+  Task {{questionId}} of {{sumQuestions}}
+</p>
+
+<div class="progress">
+  <div class="progress-bar no-transition" role="progressbar" style="width: {{(questionId / sumQuestions)*100}}%;">
+  </div>
+</div>
+
+<hr>
+
+<section class="text-center">
+  <button class="btn btn-success btn-lg" value="true" ng-click="saveAnswer('true')">True</button>
+  <button class="btn btn-danger btn-lg" value="false" ng-click="saveAnswer('false')">False</button>
+</section>
+
+<pre class="prettyprint linenums lang-js" ng-bind="question"></pre>
+<br>
