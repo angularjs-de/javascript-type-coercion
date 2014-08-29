@@ -15,6 +15,7 @@ angular.module("typeCoercion")
             } else {
                 $location.path("/summary");
             }
+            console.log(results);
 
         };
 
