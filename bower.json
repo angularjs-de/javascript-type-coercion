@@ -20,6 +20,7 @@
     "angular-route": "~1.2.1",
     "google-code-prettify": "~1.0.0",
     "angular-bootstrap": "~0.6.0",
-    "github-fork-ribbon-css": "~0.1.0"
+    "github-fork-ribbon-css": "~0.1.0",
+    "bootstrap": "~3.2.0"
   }
 }
