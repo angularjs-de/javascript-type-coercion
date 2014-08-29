@@ -1,6 +1,6 @@
 {
   "name": "github-fork-ribbon-css",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "http://simonwhitaker.github.io/github-fork-ribbon-css/",
   "authors": [
     "Simon Whitaker"
@@ -24,14 +24,13 @@
     "test",
     "tests"
   ],
-  "_release": "0.1.0",
+  "_release": "0.1.1",
   "_resolution": {
     "type": "version",
-    "tag": "0.1.0",
-    "commit": "8e831ac4e7f84a1c6bce5aa347373a00c1734fee"
+    "tag": "0.1.1",
+    "commit": "2df778af2f45357bf475d4ad5b95dffb83263421"
   },
   "_source": "git://github.com/simonwhitaker/github-fork-ribbon-css.git",
   "_target": "~0.1.0",
-  "_originalSource": "github-fork-ribbon-css",
-  "_direct": true
+  "_originalSource": "github-fork-ribbon-css"
 }

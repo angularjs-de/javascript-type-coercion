@@ -3,14 +3,27 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Fork me on Github</title>
+    <title>Fork me on Github CSS Ribbon</title>
+    <link rel="stylesheet" href="http://oss.maxcdn.com/libs/normalize-css/3.0.0/normalize.min.css">
     <style>
         /* This is just the styling for this page. See below for the CSS for the ribbon itself. */
         html {
-            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
         }
         h1, h2 {
             font-weight: 400;
+        }
+        pre {
+            background-color: #222;
+            color: white;
+            padding: 10px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+        pre:before {
+            content: "$ ";
+            color: #999;
         }
         .content {
             width: 560px;
@@ -23,6 +36,19 @@
         }
         .content p {
             font-weight: 200;
+        }
+
+        /* The default background color is #c00 */
+        .right-bottom .github-fork-ribbon {
+            background-color: #090;
+        }
+
+        .right .github-fork-ribbon {
+            background-color: #f80;
+        }
+
+        .left-bottom .github-fork-ribbon {
+            background-color: #333;
         }
     </style>
 
@@ -64,10 +90,14 @@
             the <a href="https://github.com/simonwhitaker/github-fork-ribbon-css/">CSS files here</a>.
         </p>
         <p>
-            Alternatively, fork the project on
-            GitHub! Start by clicking the ribbon at the top
-            of the page.
+            Alternatively, <a href="https://github.com/simonwhitaker/github-fork-ribbon-css/fork">fork the project on GitHub</a>!
         </p>
+        <h2>Using with Bower</h2>
+        <p>
+            You can install the CSS files
+            using <a href="https://github.com/bower/bower">Bower</a>.
+        </p>
+        <pre>bower install github-fork-ribbon-css</pre>
         <h2>About</h2>
         <p>
             This project was written by
