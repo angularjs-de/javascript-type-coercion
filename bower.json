@@ -1,9 +1,10 @@
 {
-  "name": "type-coercion",
+  "name": "javascript-type-coercion",
   "version": "0.0.1",
-  "homepage": "https://github.com/robinboehm/angularjs-intensiv-workshop",
+  "homepage": "https://github.com/angularjs-de/javascript-type-coercion",
   "authors": [
-    "Robin Böhm <robinboehm@googlemail.com>"
+    "Robin Böhm <robinboehm@googlemail.com>",
+    "Sascha Brink <sascha.brink@gmail.com>"
   ],
   "license": "MIT",
   "private": true,
@@ -19,7 +20,6 @@
     "angular-route": "~1.2.1",
     "google-code-prettify": "~1.0.0",
     "angular-bootstrap": "~0.6.0",
-    "bootstrap": "2.3.2",
     "github-fork-ribbon-css": "~0.1.0"
   }
 }
