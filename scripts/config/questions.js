@@ -25,7 +25,7 @@ angular.module('typeCoercion')
     '"  " === 0',  // returns false ("  " is not converted)
     '0 === 1',     // returns false
     '1 === false', // returns false
-    '0 === true',  // returns false
+    '0 !== true',  // returns true
     'var x, y;\nx = {};\ny = x;\nx != y //?', // returns false (refers to same object in memory)
     'var x, y;\nx = {};\ny = x;\nx != {} //?', // returns true (not the same object)
     'var x, y;\nx = {};\ny = x;\nx == y //?', // returns true (refers to same object in memory)
